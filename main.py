@@ -8,4 +8,4 @@ def hello():
 
 @app.get("/123")
 def create():
-    return{"ok,bye": True}
+    return{"ok": True}
