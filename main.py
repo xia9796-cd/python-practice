@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return {"message": "Hello, yuta!"}
+    return {"message": "Hello, yuta kudo!"}
 
 @app.get("/123")
 def create():
